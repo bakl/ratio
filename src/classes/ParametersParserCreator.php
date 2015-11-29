@@ -15,10 +15,9 @@ class ParametersParserCreator
 {
     /**
      * @param mixed $n
-     * @param mixed $m
-     * @return ParametersParserByArray
+     * @return ParametersParserInterface
      */
-    public function create($n, $m = null)
+    public function create($n)
     {
         if (is_array($n)) {
             return new ParametersParserByArray();

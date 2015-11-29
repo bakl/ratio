@@ -32,6 +32,6 @@ class ParametersParserCreatorTest extends \PHPUnit_Framework_TestCase
 
     public function testCreate_Params () {
         $ppc = new ParametersParserCreator();
-        $this->assertTrue($ppc->create(1 , 2) instanceof ParametersParserByParameters);
+        $this->assertTrue($ppc->create(1) instanceof ParametersParserByParameters);
     }
 }

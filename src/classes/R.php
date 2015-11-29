@@ -46,7 +46,7 @@ class R
     public static function io($n, $m = null)
     {
         $ppCreator = new ParametersParserCreator();
-        $pp = $ppCreator->create($n, $m);
+        $pp = $ppCreator->create($n);
 
         $result = $pp->parse($n, $m);
         return new R($result[0], $result[1]);
