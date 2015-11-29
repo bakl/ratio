@@ -30,7 +30,7 @@ class ParametersParserByArray implements ParametersParserInterface
             $n[1] = 1;
         }
 
-        if (!is_int($n[0]) or !is_int($n[1])) {
+        if (!is_int($n[0]) || !is_int($n[1])) {
             throw new ParametersParserException('incorrect array');
         }
 

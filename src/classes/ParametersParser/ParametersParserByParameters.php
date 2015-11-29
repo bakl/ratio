@@ -22,7 +22,7 @@ class ParametersParserByParameters implements ParametersParserInterface
             $m = 1;
         }
 
-        if (!is_int($n) or !is_int($m)) {
+        if (!is_int($n) || !is_int($m)) {
             throw new ParametersParserException('incorrect params');
         }
 
