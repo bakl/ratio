@@ -13,5 +13,5 @@ interface ParametersParserInterface
      * @param mixed $m
      * @return array
      */
-    public function parse($n ,$m = null);
+    public function parse($n, $m = null);
 }
