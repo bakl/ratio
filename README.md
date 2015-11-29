@@ -2,7 +2,7 @@
 
 PHP library for work with rational numbers.
 
-## Install
+## Installation
 <pre>
 composer require math/ratio
 </pre>
