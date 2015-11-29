@@ -2,6 +2,11 @@
 
 PHP library for work with rational numbers.
 
+## Install
+<pre>
+composer require math/ratio
+</pre>
+
 ## Create new number
 - use constructor:
 
