@@ -10,7 +10,8 @@ php:
 env:
 
 before_script:
-  - composer update
+  - composer install --dev
+  - cat vendor/autoload.php
 
 script:
   - phpunit tests --bootstrap=vendor/autoload.php --coverage-text
