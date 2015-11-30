@@ -14,6 +14,6 @@ before_script:
   - cat vendor/autoload.php
 
 script:
-  - phpunit tests --bootstrap=vendor/autoload.php --coverage-text
+  - vendor/bin/phpunit --bootstrap=vendor/autoload.php tests
 
 after_script:
