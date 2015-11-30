@@ -71,7 +71,7 @@ RE;
             $numerator = intval($matches[4]);
             $denominator = intval($matches[5]);
         } else {
-            $numerator = intval($matches[7].$matches[8]);
+            $numerator = intval($matches[7] . $matches[8]);
             $denominator = pow(10, strlen($matches[8]));
         }
 
