@@ -1,3 +1,4 @@
+[![Latest Stable Version](https://poser.pugx.org/math/ratio/v/stable)](https://packagist.org/packages/math/ratio) [![License](https://poser.pugx.org/math/ratio/license)](https://packagist.org/packages/math/ratio) [![Build Status](https://scrutinizer-ci.com/g/dakulov/ratio/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dakulov/ratio/build-status/master) [![Code Coverage](https://scrutinizer-ci.com/g/dakulov/ratio/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dakulov/ratio/?branch=master)
 # R::io -> Rational numbers
 
 PHP library for work with rational numbers.
@@ -6,6 +7,10 @@ PHP library for work with rational numbers.
 <pre>
 composer require math/ratio
 </pre>
+
+## Requirements
+
+Requires PHP 5.4 or late
 
 ## Create new number
 - use constructor:
