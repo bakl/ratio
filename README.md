@@ -3,6 +3,8 @@
 
 PHP library for work with rational numbers.
 
+ITS FUCKING TEST COMMIT
+
 ## Installation
 <pre>
 composer require math/ratio
